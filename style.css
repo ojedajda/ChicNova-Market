@@ -17,7 +17,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 img{
-    max-width: 100;
+    max-width: 100%; 
 }
 
 .container{
@@ -25,7 +25,7 @@ img{
     margin: 0 auto;
 }
 
-.herader{
+.header{ 
     display: flex;
     align-items: center;
     min-height: 80vh;
@@ -53,9 +53,6 @@ img{
 .menu .navbar ul li a {
     position: relative;
     float: left;
-}
-
-.menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
     color: #111111;
@@ -78,7 +75,7 @@ img{
     position: relative;
 }
 
-.submenu #carrito {
+.submenu:hover #carrito {
     display: block;
     position: absolute;
     right: 0%;
@@ -87,7 +84,7 @@ img{
     z-index: 1;
     background-color: #4E4B5076;
     padding: 20px;
-    min-height: 400px;
+    min-width: 400px;
 }
 
 table {
@@ -107,13 +104,3 @@ th, td {
     font-weight: 800;
     cursor: pointer;
 }
-
-
-body {
-    background-image: url("Fondo\ Market.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  
-  
