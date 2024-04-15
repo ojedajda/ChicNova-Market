@@ -74,6 +74,22 @@ img{
     display: none;
 }
 
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: block;
+    position: absolute;
+    right: 0%;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4E4B5076;
+    padding: 20px;
+    min-height: 400px;
+}
+
 body {
     background-image: url("Fondo\ Market.jpeg");
     background-repeat: no-repeat;
