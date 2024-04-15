@@ -90,6 +90,25 @@ img{
     min-height: 400px;
 }
 
+table {
+    width: 100%;
+}
+
+th, td {
+    color: #FFFFFF;
+}
+
+.borrar {
+    background-color: #111111;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
 body {
     background-image: url("Fondo\ Market.jpeg");
     background-repeat: no-repeat;
