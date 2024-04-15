@@ -69,6 +69,11 @@ img{
 .menu-icono {
     width: 25px;
 }
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
 body {
     background-image: url("Fondo\ Market.jpeg");
     background-repeat: no-repeat;
