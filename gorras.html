@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gorras Exclusivas para Ti!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaeaea;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .producto {
+            background-color: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        .producto:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .producto:hover:before {
+            opacity: 0.5;
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #333;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .producto:hover img {
+            transform: scale(1.05);
+        }
+        .producto h2 {
+            color: #333;
+            margin-top: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+        .producto:hover h2 {
+            color: #ff6600;
+        }
+        .producto p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .precio {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+        .producto:hover .precio {
+            color: #ff6600;
+        }
+        .boton {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .boton:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Explora Nuestra Colección Exclusiva de Gorras!</h1>
+    </header>
+    <div class="container">
+        <div class="producto">
+            <img src="img/gorra1.png" alt="Gorra 1">
+            <h2>Gorra de alucin</h2>
+            <p class="precio">$20</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/gorra2.png" alt="Gorra 2">
+            <h2>Gorra de marca new era</h2>
+            <p class="precio">$25</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/guciii.png" alt="Gorra 3">
+            <h2>Gorra gucci en tela de algodon</h2>
+            <p class="precio">$18</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/mona.png" alt="Gorra 4">
+            <h2>Gorra monastery</h2>
+            <p class="precio">$30</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/diii.png" alt="Gorra 4">
+            <h2>Gorra dior exclusiva</h2>
+            <p class="precio">$30</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/lvee.png" alt="Gorra 4">
+            <h2>Gorra de estilo louis vuitton</h2>
+            <p class="precio">$30</p>
+            <button class="boton">Agregar al carrito</button>
+        </div>
+    </div>
+</body>
+</html>
