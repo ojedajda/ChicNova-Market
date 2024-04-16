@@ -47,3 +47,12 @@
 }
 
 /* Estilos adicionales para responsividad o interactividad pueden ser añadidos aquí */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 0 1 auto; /* No crece, no se encoge, basado en el contenido auto */
+}
