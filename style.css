@@ -104,3 +104,21 @@ th, td {
     font-weight: 800;
     cursor: pointer;
 }
+
+.header-conternt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.header-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    text-align: center;
+}
