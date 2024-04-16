@@ -137,3 +137,11 @@ th, td {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
