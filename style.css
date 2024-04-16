@@ -209,5 +209,24 @@ th, td {
     gap: 50px;
 }
 
+.products {
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.products img {
+    width: 250px;
+    height: 375px;
+    margin-bottom: 20px;
+}
+
+.products h3 {
+    font-size: 20px;
+    color: #111111;
+    font-family: "Oswald" ,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
 
 
