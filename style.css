@@ -1,15 +1,12 @@
-/* Estilos generales del contenedor */
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
-/* Estilos para la cabecera */
 .header {
-    background-color: #fff; /* Fondo blanco o cualquier otro color de fondo deseado */
+    background-color: #fff; 
 }
 
-/* Estilos para el menú */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -17,9 +14,8 @@
     padding: 10px 0;
 }
 
-/* Estilos para el logotipo y el menú de navegación */
 .logo {
-    color: black; /* Asegúrate de que el logo tenga el color deseado */
+    color: black; 
     text-decoration: none;
     font-size: 1.5em;
 }
@@ -42,17 +38,31 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: black; /* Cambia el color del texto a negro */
+    color: black; 
     font-size: 1.2em;
 }
-
-/* Estilos adicionales para responsividad o interactividad pueden ser añadidos aquí */
-.menu {
+/* Estilos para el logotipo y el menú de navegación */
+.logo-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centra horizontalmente */
     align-items: center;
 }
 
 .logo {
-    flex: 0 1 auto; /* No crece, no se encoge, basado en el contenido auto */
+    width: 200px; /* Ancho del logotipo */
+    height: auto; /* Altura automática para mantener la proporción */
 }
+
+/* Estilos para las ofertas especiales */
+.special-offers {
+    text-align: center; /* Centra horizontalmente */
+    font-size: 40px; /* Tamaño de la fuente más grande */
+    margin-top: 36px; /* Espacio superior */
+}
+
+.gray-background {
+    background-color: blue; /* Color gris que desees */
+}
+
+
+
