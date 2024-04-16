@@ -185,6 +185,28 @@ th, td {
 .btn-2 {
     display: inline-block;
     padding: 7px ;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products h2 {
+    color: #111111;
+    font-family: "Oswald" ,sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
 }
 
 
