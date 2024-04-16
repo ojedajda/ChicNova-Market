@@ -64,5 +64,21 @@
     background-color: blue; /* Color gris que desees */
 }
 
+.footer {
+    background-color: #616161; /* Color gris */
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+.ofert-img {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.ofert-img img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
 
 
