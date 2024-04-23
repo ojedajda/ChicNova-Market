@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa Urbana de Vanguardia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #212121;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            background-color: #333;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .product h2 {
+            font-size: 24px;
+        }
+        .product p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .price {
+            color: #ffcc00;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #ffcc00;
+            border: none;
+            color: #212121;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #ffb300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ropa Urbana exclusiva</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="img/techh.png" alt="Sudadera">
+            <h2>Nike tech con o sin Capucha</h2>
+            <p>Sudadera cómoda y con estilo para cualquier ocasión.</p>
+            <p class="price">$39.99</p>
+            <button class="button">Comprar ahora</button>
+        </div>
+        <div class="product">
+            <img src="img/jean.png" alt="Jeans">
+            <h2>Pantalones Vaqueros con diseño desteñido Louis vuitton</h2>
+            <p>Jeans modernos unisex y con un toque desgastado para un look urbano.</p>
+            <p class="price">$49.99</p>
+            <button class="button">Comprar ahora</button>
+        </div>
+        <div class="product">
+            <img src="img/baelnnn.png" alt="Zapatillas">
+            <h2>Zapatillas Urbanas de suela alta marca balenciaga tallas desde 8 a 13 americano </h2>
+            <p>Zapatillas exclusivas de diseño urbano para un estilo único.</p>
+            <p class="price">$69.99</p>
+            <button class="button">Comprar ahora</button>
+        </div>
+        <div class="product">
+            <img src="img/kaws.png" alt="Gorra">
+            <h2>chaqueta marca kaws en colaboracion con north face </h2>
+            <p>capucha remobible de botones de presion.</p>
+            <p class="price">$49.99</p>
+            <button class="button">Comprar ahora</button>
+        </div>
+        <div class="product">
+            <img src="img/lakers.png" alt="Gorra">
+            <h2>gorra exclusiva de los lakers en color negro </h2>
+            <p>edicion limitada</p>
+            <p class="price">$29.99</p>
+            <button class="button">Comprar ahora</button>
+        </div>
+    </div>
+</body>
+</html>

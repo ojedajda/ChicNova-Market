@@ -1,15 +1,12 @@
-/* Estilos generales del contenedor */
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
-/* Estilos para la cabecera */
 .header {
-    background-color: #fff; /* Fondo blanco o cualquier otro color de fondo deseado */
+    background-color: #fff; 
 }
 
-/* Estilos para el menú */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -17,9 +14,8 @@
     padding: 10px 0;
 }
 
-/* Estilos para el logotipo y el menú de navegación */
 .logo {
-    color: black; /* Asegúrate de que el logo tenga el color deseado */
+    color: black; 
     text-decoration: none;
     font-size: 1.5em;
 }
@@ -42,17 +38,104 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: black; /* Cambia el color del texto a negro */
+    color: black; 
     font-size: 1.2em;
 }
-
-/* Estilos adicionales para responsividad o interactividad pueden ser añadidos aquí */
-.menu {
+/* Estilos para el logotipo y el menú de navegación */
+.logo-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centra horizontalmente */
     align-items: center;
 }
 
 .logo {
-    flex: 0 1 auto; /* No crece, no se encoge, basado en el contenido auto */
+    width: 200px; /* Ancho del logotipo */
+    height: auto; /* Altura automática para mantener la proporción */
 }
+
+/* Estilos para las ofertas especiales */
+.special-offers {
+    text-align: center; /* Centra horizontalmente */
+    font-size: 40px; /* Tamaño de la fuente más grande */
+    margin-top: 36px; /* Espacio superior */
+}
+
+.gray-background {
+    background-color: blue; /* Color gris que desees */
+}
+
+.footer {
+    background-color: #616161; /* Color gris */
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+.ofert-img {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.ofert-img img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.ofert {
+    background-color: #616161;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px; /* Agrega espacio alrededor del contenido si es necesario */
+}
+
+.oferta-1 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ofert-img {
+    margin-bottom: 10px;
+}
+
+.ofert-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ofert-txt {
+    margin-top: 5px;
+}
+
+.special-offers {
+    font-size: 3em; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
